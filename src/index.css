@@ -1,0 +1,50 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(17, 17, 17);
+
+  margin-top: 30px;
+}
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  border: 1px solid rgb(44, 44, 43);
+  padding: 30px;
+  align-items: center;
+  box-shadow: 1px 3px 4px rgb(38, 79, 87);
+  background-color: rgb(186, 202, 202);
+}
+.todo-list:hover {
+  box-shadow: 3px 5px 8px rgb(41, 40, 40);
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  border-bottom: 1px solid rgb(85, 81, 81);
+  padding: 30px 20px 0px;
+  font-size: 15px;
+  font-weight: 100;
+  color: rgb(46, 44, 44);
+  font-weight: 600;
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+}
