@@ -3,7 +3,8 @@ import React from "react";
 function Footer()
 {
     return (
-        <footer style={{color:"red"}}>This is a footer</footer>
+         <div><footer style={{color:"blue"}}>This is a footer</footer></div>
+        
     )
 }
 export default Footer;
